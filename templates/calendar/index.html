@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}calendar index{% endblock %}
+
+{% block body %}
+<h1>Les séances</h1>
+
+{#  {{ dump(calendars) }}#}
+
+<div class="onlydesktop">
+
+
+
+
+</div>
+<div class="onlymobil">
+
+
+
+
+
+
+
+
+
+    <hr>
+
+
+
+    {% else %}
+
+    <p>Aucune correspondance trouvée</p>
+
+    {% endfor %}
+
+</div>
+
+{% endblock %}
